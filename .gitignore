@@ -1,0 +1,79 @@
+# =========================
+# Python / uv project
+# =========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# uv specific
+.uv/
+.uv_cache/
+.uv-lock/
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Logs & dumps
+*.log
+*.out
+*.err
+
+# =========================
+# PyCharm / JetBrains IDE
+# =========================
+.idea/
+*.iml
+# Sometimes JetBrains stores local history or workspace files
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/shelf/
+
+# =========================
+# macOS system files
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# Project-specific ignores
+# =========================
+
+# Ignore style-transfer-mlx project data directory
+style-transfer-mlx/data/cams_formal/
+
+# Cache / generated files from experiments
+cache/
+outputs/
+artifacts/
+checkpoints/
+runs/
+
+# Training artifacts (local-only)
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.mp4
+
+# =========================
+# Optional: editor backups
+# =========================
+*~
+*.swp
+*.swo
